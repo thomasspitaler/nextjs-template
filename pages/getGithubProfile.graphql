@@ -1,0 +1,5 @@
+query getGithubProfile { 
+  viewer { 
+    name
+  }
+}

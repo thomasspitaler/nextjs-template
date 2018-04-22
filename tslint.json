@@ -13,7 +13,8 @@
     "trailing-comma": false,
     "arrow-parens": false,
     "no-var-requires": false,
-    "member-access": true
+    "member-access": true,
+    "interface-name": false
   },
   "rulesDirectory": []
 }

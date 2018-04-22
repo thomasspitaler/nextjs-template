@@ -13,6 +13,7 @@
   "author": "Thomas Spitaler",
   "license": "ISC",
   "dependencies": {
+    "apollo-client-preset": "^1.0.8",
     "classnames": "^2.2.5",
     "compression": "^1.7.2",
     "dotenv": "^5.0.1",

@@ -11,7 +11,9 @@
     "indent": [true, "spaces", 4],
     "object-literal-sort-keys": false,
     "trailing-comma": false,
-    "arrow-parens": false
+    "arrow-parens": false,
+    "no-var-requires": false,
+    "member-access": true
   },
   "rulesDirectory": []
 }

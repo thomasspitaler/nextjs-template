@@ -4,7 +4,7 @@ import '../../styles/index.css'
 import '../../pageEvents'
 import { initGA, logPageView } from '../../lib/analytics'
 import { ICustomWindow } from '../../types/window.d'
-import { Colors, Fonts } from '../../settings'
+import { Colors, Fonts, Dimensions } from '../../settings'
 import Header from './Header'
 import Footer from './Footer'
 
@@ -40,13 +40,15 @@ class Layout extends Component<ILayoutProps> {
                         flex-direction: column;
                         min-height: 100vh;
                     }
-    
+
                     .header, .footer {
                         flex: 0 0 auto;
                     }
-    
+
                     main {
                         flex: 1 0 auto;
+                        padding-left: ${Dimensions.paddingPageSides};
+                        padding-right: ${Dimensions.paddingPageSides};
                     }
 
                     body {

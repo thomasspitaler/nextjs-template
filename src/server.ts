@@ -2,7 +2,8 @@ import * as next from 'next'
 import * as cookiesMiddleware from 'universal-cookie-express'
 import * as compression from 'compression'
 import * as express from 'express'
-const routes = require('./routes')
+// const routes = require('./routes')
+import routes from './routes'
 const dotenv = require('dotenv')
 
 dotenv.config()

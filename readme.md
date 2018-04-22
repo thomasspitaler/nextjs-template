@@ -16,7 +16,7 @@ npm install
 cp .env.example .env
 ```
 
-The Github GraphQL API is used as a test GraphQL endpoint. The user's name is displayed on the about page. To get this working, set `GRAPHQL_TOKEN` to a valid Github OAuth 2 token in `.env`.
+The GitHub GraphQL API is used as a test GraphQL endpoint. The user's name is displayed on the about page. To get this working, set `GRAPHQL_TOKEN` to a valid GitHub OAuth 2 token in `.env`.
 
 To configure Google Analytics, set `GA_TRACKING_ID` in `.env` to the Google Analytics tracking ID of your site.
 

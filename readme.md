@@ -1,6 +1,6 @@
 # nextjs-template
 
-Next.js with TypeScript, custom TypeScript server, and Apollo GraphQL.
+[Next.js](https://zeit.co/blog/next5) with TypeScript, custom TypeScript server, and [Apollo GraphQL](https://www.apollographql.com/docs/react/).
 
 ## Installation
 
@@ -27,6 +27,8 @@ To configure the port of the server, set `PORT` in `.env` to the desired port nu
 ```
 npm run dev
 ```
+
+Per default the development server is listening on [http://localhost:3000](http://localhost:3000).
 
 ## Building and Running the Production Server
 

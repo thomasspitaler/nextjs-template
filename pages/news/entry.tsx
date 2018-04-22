@@ -1,16 +1,15 @@
 import React from 'react'
 import Layout from '../../src/components/Layout/Layout'
 import BodyRenderer from '../../src/components/BodyRenderer/BodyRenderer'
+import PageProps from '../../src/lib/PageProps'
 
-interface INewsPage {
-    url: {
-        query: {
-            slug: string
-        }
-    }
+interface NewsPageQueryParams {
+   slug: string
 }
 
-const NewsPage: React.SFC<INewsPage> = (props) => {
+type NewsPageProps = PageProps<NewsPageQueryParams>
+
+const NewsPage: React.SFC<NewsPageProps> = (props) => {
     const slug = props.url.query.slug
     const someRichContent = `
         <p>A real app would get this content via a GraphQL query, using the slug as a variable.</p>

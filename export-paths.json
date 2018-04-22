@@ -1,4 +1,6 @@
 {
   "/": { "page": "/" },
-  "/teachers": { "page": "/teachers" }
+  "/about": { "page": "/about" },
+  "/news": { "page": "/news" },
+  "/news/some-breaking-news": { "page": "/news/entry" }
 }

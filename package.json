@@ -1,8 +1,8 @@
 {
-  "name": "next-ts",
+  "name": "nextjs-template",
   "version": "1.0.0",
-  "description": "next.js boilerplate using TypeScript and Apollo GraphQL",
-  "main": "index.js",
+  "description": "Project template for creating next.js apps, using TypeScript, a custom TypeScript server, and Apollo GraphQL.",
+  "main": "build/server.js",
   "scripts": {
     "dev": "nodemon src/server.ts",
     "clean": "rm -rf build",

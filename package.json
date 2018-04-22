@@ -12,6 +12,10 @@
   },
   "author": "Thomas Spitaler",
   "license": "ISC",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/thomasspitaler/nextjs-template"
+  },
   "dependencies": {
     "apollo-client-preset": "^1.0.8",
     "classnames": "^2.2.5",

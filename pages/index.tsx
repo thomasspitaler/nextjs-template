@@ -1,5 +1,4 @@
 import React from 'react'
-import withData from '../src/lib/withData'
 import Layout from '../src/components/Layout/Layout'
 
 const HomePage: React.SFC = () => (
@@ -7,8 +6,13 @@ const HomePage: React.SFC = () => (
         <h1>Next.js Template</h1>
         <p>Have fun with next.js and apollo!</p>
         <style jsx>{`
+            p {
+                background: #bada55;
+                padding: 2em;
+                border-radius: 5px;
+            }
         `}</style>
     </Layout>
 )
 
-export default withData(HomePage)
+export default HomePage
